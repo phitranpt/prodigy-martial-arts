@@ -1,0 +1,143 @@
+.landing-page-container {
+  .background-img {
+    background-image: url('/images/Belt1.png');
+    height: 100vh; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .social-media-icons {
+      margin-top: 15px;
+      padding-right: 85px;
+      padding-left: 85px;
+      padding-top: 20px;
+      .prodigy-logo {
+        height: 20vh;
+        width: 20vh;
+      }
+      .facebook-icon {
+        float: right;
+        color:#4a515c;
+        margin-left: 20px;
+        padding-top: 23px;
+        cursor: pointer;
+        &:hover {
+          color: #db2525;
+        }
+      }
+      .instagram-icon {
+        float: right;
+        color: #4a515c;
+        padding-top: 23px;
+        cursor: pointer;
+        &:hover {
+          color: #db2525;
+        }
+      }
+      .link1 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #4a515c;
+        padding-top: 35px;
+        padding-right: 60px;
+        float: right;
+        cursor: pointer;
+        &:hover {
+          color: #db2525;
+        }
+      }
+      .link2 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #4a515c;
+        padding-top: 35px;
+        padding-right: 60px;
+        float: right;
+        cursor: pointer;
+        &:hover {
+          color: #db2525;
+        }
+      }
+      .link3 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #4a515c;
+        padding-top: 35px;
+        padding-right: 60px;
+        float: right;
+        cursor: pointer;
+        &:hover {
+          color: #db2525;
+        }
+      }
+      .link4 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #4a515c;
+        padding-top: 35px;
+        padding-right: 60px;
+        float: right;
+        cursor: pointer;
+        &:hover {
+          color: #db2525;
+        }
+      }
+    }
+    .prodigy-title {
+      margin-top: 100px;
+      margin-left: 90px;
+      .prod-1 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #4a515c;
+        font-weight: 800;
+        font-size: 50px;
+        font-style: italic;
+      }
+      .prod-2 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        color: #4a515c;
+        font-weight: 800;
+        font-size: 40px;
+        padding-top: 25px;
+      }
+      .prod-3 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        color: #4a515c;
+        font-weight: bolder;
+        padding-top: 40px;
+        white-space: pre-wrap;
+      }
+      .button-row {
+        padding-top: 150px;
+        .btn {
+          font-family: 'Tajawal', sans-serif;
+          font-weight: bolder;
+          border: 2px solid black;
+          border-radius: 1.5em;
+          background-color: white;
+          color: black;
+          padding: 15px 100px;
+          font-size: 16px;
+          outline:none;
+          cursor: pointer;
+        }
+        .discover:hover {
+          border-color: #db2525;
+          color: #db2525;
+        }
+      }
+    }
+  }
+}
